@@ -1,0 +1,283 @@
+
+
+
+.title {
+  position: fixed;
+  color: white;
+  width: 100%;
+  padding: 0px;
+}
+
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 13px 1%;
+overflow: hidden;
+background-color: rgba(0,0,0,0.1);
+position:fixed;
+left: 0;
+right: 0;
+top: 0;
+width: 100%;
+}
+
+/* itemas on the nav bar*/
+li {
+float: right;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding-top: 40px;
+padding-right: 100px;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+li a:hover {
+  font-size: 120%;
+}
+
+/* Centered text */
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    font-family: serif;
+}
+
+
+/*horizontal line on side of text*/
+.centered:before {
+    position: absolute;
+    top: 51%;
+	left: -30%;
+    overflow: hidden;
+    width: 100px;
+    height: 1px;
+    content: '\a0';
+    background-color: white;
+}
+
+.centered:after {
+	position: absolute;
+    top: 51%;
+	left: 103%;
+    overflow: hidden;
+    width: 100px;
+    height: 1px;
+    content: '\a0';
+    background-color: white;
+}
+
+.color {
+    background-color: #ccc;
+}
+
+
+/* Software Developer */
+.research-student {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    font-family: serif;
+
+}
+
+
+
+
+
+/*lower page*/
+.arrow {
+  padding-bottom: -200px;
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255,255,255,0);
+  height: 120px;
+  padding-top: 40%;
+
+}
+
+#full {
+  height: 100%;
+
+
+}
+
+
+.img-circle {
+    border-radius: 50%;
+    height: 380px;
+    width: 380px;
+    padding: 150px 100px;
+  }
+
+
+
+
+/*texte on right had side*/
+#col2{
+
+ width:45%;
+ float: right;
+ padding:100px 100px;
+ padding-top: 200px;
+
+}
+
+/*Welcome!*/
+.h1 {
+font-size: 45px;
+font-family: serif;
+font-weight: lighter;
+color:white;
+}
+
+/*paragraph about client*/
+.text {
+font-size: 25px;
+font-family: serif;
+font-weight: lighter;
+color:white;
+padding-bottom: 10%;
+
+
+}
+
+body {
+	background-color: #1a1a1a;
+}
+
+
+/*top button*/
+.button {
+
+	position: relative;
+	padding: 10px 25px;
+	background-color: #888;
+	color: white;
+	font-family: serif;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+
+  margin-left: 700px;
+  margin-top: 0%;
+}
+
+.button:hover {
+	background-color: #333;
+	color: white;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+	color: white;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+
+
+
+
+
+.fa {
+  padding-top: 2.5%;
+  padding-left: 5%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px!important;
+    line-height: 34px !important;
+    height: 31px !important;
+
+
+
+}
+
+.fa:hover {
+    color: rgba(44, 62, 80, 1);
+
+}
+
+.fa-facebook {
+  margin-left: 37%;
+  text-align: right;
+  color: white;
+
+}
+
+.fa-twitter {
+  text-align: right;
+  color: white;
+}
+
+.fa-linkedin {
+  text-align: right;
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* "Nat the Twat" sounds like a sonic the hedgehog character*/
